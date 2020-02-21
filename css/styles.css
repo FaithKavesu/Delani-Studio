@@ -1,0 +1,8 @@
+.centered {
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform-origin: center;
+    align-items: center;
+    text-align: center;
+}
