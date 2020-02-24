@@ -77,3 +77,6 @@ p {
 .message3 {
     display: none;
 }
+#img1:hover{
+    font-size: larger;
+}
