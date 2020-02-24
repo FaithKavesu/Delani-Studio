@@ -41,3 +41,19 @@ p {
 .icons{
     align-items: center;
 }
+#design {
+    cursor:pointer;
+    color: #f31414;
+  }
+#dev {
+    cursor:pointer;
+    color: #f31414;
+  }
+#product {
+    cursor:pointer;
+    color: #f31414;
+}
+#design:hover {
+    cursor: pointer;
+  }
+
