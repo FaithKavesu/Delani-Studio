@@ -1,4 +1,4 @@
-$(document).click(function() {
+$(document).ready(function() {
   $(".contact").submit(function(event) {
       var myName = $("#name").val();
       var myEmail = $("#email").val();
@@ -10,17 +10,20 @@ $(document).click(function() {
       }
     })
   })
-$(".design1").click(function(){
+$(document).ready(function() {
+  $(".design1").click(function(){
     $("#img1").toggle();
     $(".message1").toggle();
   });
-  
-  $("#dev").click(function(){
+})
+$("#dev").ready(function() { 
+  $("#dev").toggle();
     $(".img2").toggle();
     $(".message2").toggle();
   });
-  $("product").click(function() {
-    $("images/design_icon.png").toggle();
+$(document).ready(function() {
+  $("product").toggle();
+    $(".img3").toggle();
         $("message3").toggle();
   });
   

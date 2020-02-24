@@ -1,10 +1,12 @@
-.centered {
+.reading {
   background-image: url(../images/h_img.jpg);
   background-size: cover;
   text-align: center;
+  color:white;
 }
 .contact{
-    background-image: url(../images/s_image.jpg);
+    background-image: url(../images/c_image.jpg);
+    background-size: cover;
 }
 h1 {
     font-size: 40px;
@@ -23,12 +25,24 @@ h4 {
     font-size: 40px;
 }
 h5 {
+    font-weight:bold ;
+    
+}
+h6 {
+    font-weight: bold;
+    
+}
+h7 {
+    font-weight: bold;
+}
+h8 {
     text-align: center;
     font-size: 40px;
 }
-h6 {
+h9 {
     text-align: center;
     font-size: 40px;
+    color: white;
 }
 p {
     text-align: center;
@@ -36,26 +50,30 @@ p {
 
 .ser{
     background-image: url(../images/s_image.jpg);
+    background-size: cover;
     color: white;
 }
 .icons{
     align-items: center;
 }
-#design {
+.design {
     cursor:pointer;
-    color: #f31414;
   }
-#dev {
+.dev {
     cursor:pointer;
-    color: #f31414;
   }
-#product {
+.product {
     cursor:pointer;
-    color: #f31414;
 }
-#design:hover {
+.design:hover {
     cursor: pointer;
   }
 .message1 {
+    display: none;
+}
+.message2 { 
+    display: none;
+}
+.message3 {
     display: none;
 }
