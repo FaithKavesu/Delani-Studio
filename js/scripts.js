@@ -10,7 +10,8 @@ $(document).ready(function() {
       }
     })
   })
-$("#dev").click(function(){
+$(".design1").click(function(){
+    $("#design").toggle(1000);
     $(".message1").toggle(1000);
   });
   

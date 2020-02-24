@@ -56,4 +56,6 @@ p {
 #design:hover {
     cursor: pointer;
   }
-
+.message1 {
+    display: none;
+}
