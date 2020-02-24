@@ -27,6 +27,6 @@ $("#dev").click(function(){
   });
   
   $("#dev").click(function(){
-    $(".message2").show();
+    $(".message1").show();
   });
   
