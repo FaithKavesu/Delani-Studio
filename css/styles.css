@@ -65,18 +65,12 @@ p {
 .product {
     cursor:pointer;
 }
-.design:hover {
-    cursor: pointer;
-  }
-.message1 {
+.message1{
     display: none;
 }
-.message2 { 
+.message2{
     display: none;
 }
 .message3 {
     display: none;
-}
-#img1:hover{
-    font-size: larger;
 }
