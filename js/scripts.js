@@ -17,20 +17,21 @@ function response() {
     $("#img1").slideToggle();
     $("#message1").toggle();
   });
-  $(".dev").click(function() {
-    $("#img2").slideToggle();
-    $(".message2").toggle();
-  });
   $("#img2").click(function() {
     $("#img2").slideToggle();
     $(".message2").toggle();
+  });
+  $("#message2").click(function() {
+    $("#img2").slideToggle();
+    $(".message2").toggle();
   })
-  $("#message3").click(function() {
+  $("#img3").click(function() {
     $(".img3").slideToggle();
         $("#message3").slideToggle();
 })
-  $(".img3").click(function() {
+  $("#message3").click(function() {
     $(".img3").slideToggle();
       $("#message3").slideToggle();
 })
     })
+    

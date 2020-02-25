@@ -2,7 +2,9 @@
 #### This ., {Date of current version 22/02/2002}.
 #### By **{Faith Kavesu}**
 ## Description
-
+Delani Studios's approach unifies design, development and product management to create exceptional products.
+We start each project by understanding your business goals,the user's needs and the product requirements.
+Then we help translate them into effective and elegant solutions.
 ## Setup/Installation Requirements
 * 8GB
 * Core i5
@@ -12,7 +14,7 @@
 * CSS
 * JavaScript
 ## Link
-https://faithkavesu.github.io/Akan/.
+https://github.com/FaithKavesu/Delani-Studio.git
 ## Support and contact details
 email : kavesumulili@gmail.com
 ### License
