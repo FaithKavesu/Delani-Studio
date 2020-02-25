@@ -1,5 +1,5 @@
 # Delani Studio
-#### This ., {Date of current version 22/02/2002}.
+#### {Date of current version 22/02/2002}.
 #### By **{Faith Kavesu}**
 ## Description
 Delani Studios's approach unifies design, development and product management to create exceptional products.

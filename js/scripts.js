@@ -19,18 +19,18 @@ function response() {
   });
   $("#img2").click(function() {
     $("#img2").slideToggle();
-    $(".message2").toggle();
+    $("#message2").toggle();
   });
   $("#message2").click(function() {
     $("#img2").slideToggle();
-    $(".message2").toggle();
+    $("#message2").toggle();
   })
   $("#img3").click(function() {
-    $(".img3").slideToggle();
+    $("#img3").slideToggle();
         $("#message3").slideToggle();
 })
   $("#message3").click(function() {
-    $(".img3").slideToggle();
+    $("#img3").slideToggle();
       $("#message3").slideToggle();
 })
     })
