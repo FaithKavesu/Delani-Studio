@@ -1,0 +1,97 @@
+.reading {
+  background-image: url(../images/h_img.jpg);
+  background-size: cover;
+  text-align: center;
+  color:white;
+}
+.contact{
+    background-image: url(../images/c_image.jpg);
+    background-size: cover;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+h3 {
+    text-align: center;
+    font-size: 40px;
+}
+h4 {
+    text-align: center;
+    font-size: 40px;
+}
+h5 {
+    font-weight:bold ;
+    
+}
+h6 {
+    font-weight: bold;
+    
+}
+h7 {
+    font-weight: bold;
+}
+h8 {
+    text-align: center;
+    font-size: 40px;
+}
+h9 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+p {
+    text-align: center;
+}
+
+.ser{
+    background-image: url(../images/s_image.jpg);
+    background-size: cover;
+    color: white;
+}
+.icons{
+    align-items: center;
+}
+.design {
+    cursor:pointer;
+  }
+.dev {
+    cursor:pointer;
+  }
+.product {
+    cursor:pointer;
+}
+.name {
+    box-shadow: none;
+}
+#message1{
+    display: none;
+}
+
+#btnn{
+    text-align: center;
+}
+#form{
+    text-align: center;
+    opacity: 20;
+    transition: ease;
+}
+#message{
+    opacity: 20%;
+}
+#email{
+    opacity: 20%;
+}
+#name{
+    opacity: 20%;
+}
+#message2{
+    display: none;
+}
+#message3{
+    display: none;
+}
