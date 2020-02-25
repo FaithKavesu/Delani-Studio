@@ -1,16 +1,172 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <title>Delani Studio</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+
 </head>
+
 <body>
-    <h1>WELCOME TO DELANI STUDIO</h1>
-    <h2>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h2>
-    <img src="images/elephant.jpg" alt="A photo of an elephant">
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <div class="container">
+        <div class="reading">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <br>
+                    <br>
+                    <br>
+                    <img src="images/logo.png">
+                    <h1><br>WELCOME <br>TO DELANI STUDIO</h1>
+
+                    <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+                    <img src="images/mouse_click.png" class="lrg">
+                </div>
+            </div>
+        </div>
+
+        <h2>ABOUT US</h2>
+        <p>When you work with us, you are part of a team of collaborators. All aspects of our software development
+            process are inergrated, interactive and agile</p>
+        <p>Our approach unifies design, development and product management to create exceptional products</p>
+        <p>We start each project by understanding your business goals, the user's needs and the product requirements</p>
+        <p>Then we help translate them into effective and elegant solutions</p>
+
+        <div class="ser">
+            <h3>SERVICES</h3>
+            <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to
+                understand your product vision</p>
+            <p>The outcome of this scoping session is a proposal or high-level statement of work.</p>
+            <p>Based on your requirements we can provide a complete offering or just the pieces you need</p>
+        </div>
+
+
+        <h4>WHAT WE DO</h4>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="design">
+                    <img src="images/design_icon.png" id="img1">
+                    <h5>DESIGN</h5>
+                    <p id="message1">
+                        Our design practice offers a full range of services including brand strategy,interaction and
+                        visual design and user experience testing.
+                        Throughout your project, our designers create and implement visual design and workflows,solicit
+                        user feedback and work with you to make sure what gets built is what is needed.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="dev">
+                        <img src="images/dev_icon.png" id="img2">
+                        <h6>DEVELOPMENT</h6>
+                        <p id="message2">
+                            All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                            They collaborate with your team to write, and improve code on a daily basis, using proven
+                            practices such as test-driven development and pair programming.
+                        </p>
+                    </div>
+                </div>
+            <div class="col-md-4">
+                <div class="product">
+                        <img src="images/product_icon.png" id="img3">
+                        <h7>PRODUCT MANAGEMENT</h7>
+                        <p id="message3">Planning and development is interactive.Because we are constantly coding and testing, the
+                            products we build are always ready to go live.This iteractive process allows for changes as business requirements evolve.</p>
+                    </div>
+                </div>
+            </div>
+
+
+        <h8>PORTFOLIO</h8>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/work1.jpg">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/work2.jpg">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/work3.jpg">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/work4.jpg" alt="image">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/work5.jpg">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/work6.jpg">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/work7.jpg">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/work8.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <h9>CONTACT US</h9>
+            <div id="form">
+                <form id="form">
+                    <div class="form-group " onsubmit="response()">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="text1"></div>
+                                <input type="text" placeholder="Name..." id="name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" placeholder="Email..." id="email">
+                            </div>
+                            <div class="col-md-6">
+                                <textarea id="message" name="subject" placeholder="Your message here..."style="height:200px"></textarea>
+
+                            </div>
+                        </div>
+                        <button type="button" onclick="response()" class="btn btn-outline-primary" id="btnn">submit</button>
+                    </div>
+            </div>
+        </div>
+
+        </form>
+        <footer>
+            <div class="icons">
+
+                <img src="images/behance.png">
+                <img src="images/dribble.png">
+                <img src="images/facebook.png">
+                <img src="images/flickr.png">
+                <img src="images/g_plus.png">
+                <img src="images/pinterest.png">
+
+            </div>
+
+            <p>DELANI STUDIO</p>
+            <p>2019</p>
+        </footer>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
 </body>
+
 </html>
