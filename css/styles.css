@@ -65,3 +65,33 @@ p {
 .product {
     cursor:pointer;
 }
+.name {
+    box-shadow: none;
+}
+#message1{
+    display: none;
+}
+
+#btnn{
+    text-align: center;
+}
+#form{
+    text-align: center;
+    opacity: 20;
+    transition: ease;
+}
+#message{
+    opacity: 20%;
+}
+#email{
+    opacity: 20%;
+}
+#name{
+    opacity: 20%;
+}
+#message2{
+    display: none;
+}
+#message3{
+    display: none;
+}
